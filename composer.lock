@@ -534,12 +534,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mantisbt/mantisbt",
-                "reference": "246dea39e91362649d4924cda1989515612e3c3a"
+                "reference": "4b4de837bd348ef3d22e4cedbd7d3115415c3939"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mantisbt/mantisbt/zipball/246dea39e91362649d4924cda1989515612e3c3a",
-                "reference": "246dea39e91362649d4924cda1989515612e3c3a",
+                "url": "https://api.github.com/repos/mantisbt/mantisbt/zipball/4b4de837bd348ef3d22e4cedbd7d3115415c3939",
+                "reference": "4b4de837bd348ef3d22e4cedbd7d3115415c3939",
                 "shasum": ""
             },
             "require": {
@@ -573,7 +573,7 @@
                 }
             ],
             "description": "Mantis Bug Tracker",
-            "time": "2022-07-20T15:10:35+00:00"
+            "time": "2022-07-21T11:07:32+00:00"
         },
         {
             "name": "nikic/fast-route",
