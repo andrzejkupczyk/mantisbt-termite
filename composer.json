@@ -1,0 +1,46 @@
+{
+    "name": "webgarden/termite",
+    "description": "Toolkit for MantisBT plugins development",
+    "authors": [
+        {
+            "name": "Andrzej Kupczyk",
+            "email": "kontakt@andrzejkupczyk.pl"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/thewebgarden/termite/issues"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/mantisbt/mantisbt",
+            "no-api": true
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/mantisbt/securimage",
+            "no-api": true
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {
+        "mantisbt/mantisbt": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "WebGarden\\Termite\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.0-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}
