@@ -31,7 +31,10 @@
     "autoload": {
         "psr-4": {
             "WebGarden\\Termite\\": "src/"
-        }
+        },
+        "files": [
+            "core/termite_api.php"
+        ]
     },
     "config": {
         "optimize-autoloader": true,
