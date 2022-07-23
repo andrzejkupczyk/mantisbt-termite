@@ -10,8 +10,14 @@ use Slim\Http\Response;
 
 abstract class Action
 {
-    public function __construct(protected ContainerInterface $container)
+    /**
+     * @var \Psr\Container\ContainerInterface
+     */
+    protected $container;
+
+    public function __construct(ContainerInterface $container)
     {
+        $this->container = $container;
     }
 
     abstract public function __invoke(

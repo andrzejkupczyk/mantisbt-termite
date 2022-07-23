@@ -13,5 +13,5 @@ interface Middleware
         ServerRequestInterface $request,
         ResponseInterface $response,
         callable $next
-    ): mixed;
+    );
 }
