@@ -1,0 +1,4 @@
+<?php
+
+$s_plugin_Termite_name = 'Termite Toolkit';
+$s_plugin_Termite_description = 'Zestaw narzędzi do tworzenie wtyczek MantisBT.';

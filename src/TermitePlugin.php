@@ -17,7 +17,12 @@ abstract class TermitePlugin extends MantisPlugin
 
     public function register()
     {
-        $this->name = plugin_lang_get_defaulted('name', $this->name);
+        $this->name = plugin_lang_get_defaulted('name', $this->name ?: $this->basename());
         $this->description = plugin_lang_get_defaulted('description', $this->description);
+    }
+
+    private function basename(): string
+    {
+        return $this->basename ?: str_replace('Plugin', '', static::class);
     }
 }

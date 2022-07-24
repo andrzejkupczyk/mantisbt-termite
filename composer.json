@@ -1,6 +1,6 @@
 {
-    "name": "webgarden/termite",
-    "description": "Toolkit for MantisBT plugins development",
+    "name": "webgarden/mantisbt-termite",
+    "description": "MantisBT plugin development toolkit",
     "license": "MIT",
     "authors": [
         {
