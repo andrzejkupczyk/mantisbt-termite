@@ -9,7 +9,7 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/thewebgarden/termite/issues"
+        "issues": "https://github.com/andrzejkupczyk/termite/issues"
     },
     "repositories": [
         {
@@ -47,7 +47,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-main": "1.0-dev"
+            "dev-main": "1.x-dev"
         }
     },
     "minimum-stability": "dev"
