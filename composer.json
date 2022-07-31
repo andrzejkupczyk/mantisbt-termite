@@ -34,7 +34,7 @@
             "WebGarden\\Termite\\": "src/"
         },
         "files": [
-            "core/termite_api.php"
+            "core/plugin_api.php"
         ]
     },
     "config": {
