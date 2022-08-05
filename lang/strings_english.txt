@@ -1,4 +1,0 @@
-<?php
-
-$s_plugin_Termite_name = 'Termite Toolkit';
-$s_plugin_Termite_description = 'MantisBT plugin development toolkit.';
