@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-if (!function_exists('helper_api_url')) {
+if (!function_exists('plugin_api_url')) {
     /**
      * Build URL to the given API endpoint within the plugin's route group.
      */
