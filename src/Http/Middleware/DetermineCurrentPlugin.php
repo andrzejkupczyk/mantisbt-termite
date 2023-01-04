@@ -21,11 +21,9 @@ class DetermineCurrentPlugin extends Middleware
     /**
      * Determine plugin basename based on the route pattern
      *
-     * @param \Slim\Http\Request $request
-     *
      * @return string|null
      */
-    protected function determineBasename($request)
+    protected function determineBasename(Request $request)
     {
         /** @var \Slim\Route $route */
         $route = $request->getAttribute('route');
